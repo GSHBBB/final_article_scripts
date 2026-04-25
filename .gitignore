@@ -2,6 +2,7 @@
 不做IHS变换用的脚本/正式脚本/输入文件/input_OECD_BaTIS_Data3.csv
 不做IHS变换用的脚本/正式脚本/输入文件/input_Pure_cleaned_batis_df.csv
 不做IHS变换用的脚本/正式脚本/输入文件/input_cleaned_batis_df.csv
+不做IHS变换用的脚本/正式脚本/输出文件/output_cleaned_batis_df.csv
 
 # Python
 __pycache__/

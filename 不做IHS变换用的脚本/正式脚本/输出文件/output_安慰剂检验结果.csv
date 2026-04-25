@@ -1,0 +1,2 @@
+﻿n_obs_bottom33,n_iter_requested,n_iter_valid,true_coef_L1_Exposure,true_pvalue_L1_Exposure,placebo_coef_mean,placebo_coef_std,empirical_pvalue,placebo_pass_empirical_p_lt_0_10
+1178,500,500,0.023783041624432698,0.01697614913003309,0.0007691564211656601,0.006855774891069562,0.002,True

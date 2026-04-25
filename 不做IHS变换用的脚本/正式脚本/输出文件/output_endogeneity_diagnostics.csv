@@ -1,0 +1,7 @@
+﻿检验,核心变量,系数,P值,结论
+1. 反向回归,L1_Resilience → Exposure,+0.041542,0.4989,通过 (无反向因果)
+2a. Granger (正向),L1_Exposure → Resilience,+0.000741,0.8614,不显著
+2b. Granger (反向),L1_Resilience → Exposure,+0.018167,0.5397,通过 (无反向因果)
+3. L1/L2/L3 滞后,L1 → L2 → L3,"L1=+0.0011, L2=+0.0081, L3=-0.0035","L1 p=0.8196, L2 p=0.5239, L3 p=0.6010",需关注
+4. 前置项检验,F1_Exposure + L1_Exposure,"F1=+0.000667, L1=+0.000882","F1 p=0.9297, L1 p=0.9162",部分通过
+5. Oster delta,L1_Exposure (基准模型),beta*=+0.001147,delta=-0.3864,反向增强

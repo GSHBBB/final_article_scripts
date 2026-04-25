@@ -1,0 +1,37 @@
+\begin{table}[htbp]
+\centering
+\caption{数字贸易规则敞口对数字服务出口网络韧性的影响}
+\label{tab:main_fe_resilience}
+\small
+\begin{tabular*}{14cm}{@{\extracolsep{\fill}}lcccc}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+ & 全样本 & 全样本 & 边缘组 Bottom 33\% & 核心组 Top 33\% \\
+\midrule
+L1_Exposure & 0.0010 & 0.1034*** & 0.0210** & -0.0054 \\
+ & (0.0050) & (0.0274) & (0.0099) & (0.0069) \\
+L1\_Exposure × L1\_Centrality & — & -0.1175*** & — & — \\
+ & — & (0.0329) & — & — \\
+L1_Centrality & — & — & — & — \\
+ & — & — & — & — \\
+log_GDP_PC & — & -0.0704 & -0.0879 & -0.1414 \\
+ & — & (0.0515) & (0.0930) & (0.1101) \\
+FDI & — & -0.0001* & -0.0004 & -0.0001*** \\
+ & — & (0.0000) & (0.0037) & (0.0000) \\
+Country FE & Yes & Yes & Yes & Yes \\
+Year FE & Yes & Yes & Yes & Yes \\
+Controls & No & Yes & Yes & Yes \\
+SE Cluster & Country & Country & Country & Country \\
+Observations (N) & 3293 & 3293 & 1093 & 1122 \\
+Countries & 188 & 188 & 91 & 82 \\
+Period & 2005-2023 & 2005-2023 & 2005-2023 & 2005-2023 \\
+Within $R^2$ & -0.000 & 0.006 & 0.004 & 0.019 \\
+\bottomrule
+\end{tabular*}
+
+\begin{flushleft}
+\footnotesize 注：括号内为国家层面聚类稳健标准误（Clustered SE at Country Level）。所有模型均包含个体固定效应与年份固定效应，常数项已被固定效应吸收，不单独报告。
+L1_Exposure 为数字贸易规则敞口指数滞后一期；L1_Centrality 为出度中心度滞后一期。边缘组与核心组分别为出度中心度后验分布的后33\%与前33\%分位数组。
+***$p<0.01$，**$p<0.05$，*$p<0.1$。
+\end{flushleft}
+\end{table}
